@@ -17,7 +17,7 @@ Result stored in the file 'Player_Lists/Playerlist_Output.txt':
 ![Screenshot 2023-09-26 080646](https://github.com/raphaelgebel/DBB-player-list-creator/assets/98976609/415cdc1f-3550-4f59-9ae5-254d8275a30f)
 
 # Specification of the input-file
-For the program to work, the input file must be created according to the following specifications:
+For the program to work, the input-file must be created according to the following specifications:
 - The first word in a line represents the last name.
 - The second word in a line represents the first name.
 - The third character sequence represents the so called 'TA-/MMB-Nr.'.
