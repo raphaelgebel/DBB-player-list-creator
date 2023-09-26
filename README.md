@@ -16,12 +16,23 @@ The program allows you to select from all of your own players those who will pla
 Result stored in the file 'Player_Lists/Playerlist_Output.txt':
 ![Screenshot 2023-09-26 080646](https://github.com/raphaelgebel/DBB-player-list-creator/assets/98976609/415cdc1f-3550-4f59-9ae5-254d8275a30f)
 
+# Usage
+1. Clone the repository.
+2. Add all your players information to the file 'Player_Lists/Playerlist_Input.txt' following the specification (see below).
+3. Compile and run the 'main.c' file.
+4. Follow the instructions on-screen.
+5. Once the application is finished, you can access the generated player list in the 'Player_Lists/Playerlist_Output.txt' file.
+
 # Specification of the input-file
 For the program to work, the input-file must be created according to the following specifications:
-- The first word in a line represents the last name.
-- The second word in a line represents the first name.
+- The first word in a line represents the first name.
+- The second word in a line represents the last name.
 - The third character sequence represents the so called 'TA-/MMB-Nr.'.
 - Between each of these three character sequences there must be exactly one blank character.
+#### Example:
+![Screenshot 2023-09-26 104330](https://github.com/raphaelgebel/DBB-player-list-creator/assets/98976609/ac707a4f-4968-41d7-acf8-25ff2fc512c2)
+
+
 
 # Concepts from C that I have implemented
 - Structures
