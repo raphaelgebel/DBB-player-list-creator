@@ -12,15 +12,9 @@ The program allows you to select from all of your own players those who will pla
 
 # Example with made up player information
 ![screenshot player list example](https://github.com/raphaelgebel/DBB-player-list-creator/assets/98976609/6191fd2f-ba67-4a93-8c1d-e1fce0419b4a)
+
 Result stored in the file 'Player_Lists/Playerlist_Output.txt':
 ![Screenshot 2023-09-26 080646](https://github.com/raphaelgebel/DBB-player-list-creator/assets/98976609/415cdc1f-3550-4f59-9ae5-254d8275a30f)
-
-# Important concepts from C that I have implemented
-- Structures
-- Pointer arithmetic
-- File Handling
-- Dynamic Memory Allocation
-- Singly Linked Lists
 
 # Specification of the input-file
 For the program to work, the input file must be created according to the following specifications:
@@ -28,3 +22,10 @@ For the program to work, the input file must be created according to the followi
 - The second word in a line represents the first name.
 - The third character sequence represents the so called 'TA-/MMB-Nr.'.
 - Between each of these three character sequences there must be exactly one blank character.
+
+# Concepts from C that I have implemented
+- Structures
+- Pointer arithmetic
+- File Handling
+- Dynamic Memory Allocation
+- Singly Linked Lists
